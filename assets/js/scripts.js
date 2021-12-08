@@ -46,13 +46,13 @@ var x = setInterval(function() {
 }, 1000);
 
 
-// Copy to clipboard:
-function copyToClipboard(element) {
+$('#btnCopy').click(function() {
     var $temp = $("<input>");
     $("body").append($temp);
-    $temp.val($(element).text()).select();
+    $temp.val($("#p1").text()).select();
     document.execCommand("copy");
     $temp.remove();
-}
+    $(this).text('Copied!');
+});
 
 // ----------------------
