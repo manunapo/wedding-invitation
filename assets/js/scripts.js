@@ -52,7 +52,7 @@ $('#btnCopy').click(function() {
     $temp.val($("#p1").text()).select();
     document.execCommand("copy");
     $temp.remove();
-    $(this).text('Copied!');
+    $(this).text('Copiado!');
 });
 
 // ----------------------
