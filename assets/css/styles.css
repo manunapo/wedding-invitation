@@ -525,12 +525,12 @@ section.spacer ul a:hover {
 }
 
 section.footer {
-    text-align: center;
-    padding: 20px 0;
+    text-align: right;
+    padding: 4px;
     background-color: #666;
 }
 
-section.footer p {
+section.footer span {
     text-align: center;
     color: white;
     font-size: 12px;
