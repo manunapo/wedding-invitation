@@ -258,6 +258,7 @@ section.ceremony-party .columna img.anillos {
 /* GALERY */
 
 section.galery {
+    padding-top: 50px;
     padding-bottom: 50px;
     background-color: white;
 }

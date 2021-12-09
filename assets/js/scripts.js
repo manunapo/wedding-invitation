@@ -12,6 +12,10 @@ $('.parallax-instagram').parallax({
 $('.parallax-cover').parallax({
     imageSrc: 'assets/img/portada.jpg'
 });
+// Spacer parallax
+$('.parallax-spacer').parallax({
+    imageSrc: 'assets/img/instagram.jpg'
+});
 
 
 // Counting down:
