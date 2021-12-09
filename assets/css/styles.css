@@ -1,7 +1,7 @@
 /* Styles */
 
 :root {
-    --color-primario: #ddc190;
+    --color-primario: #E6BE8A;
 }
 
 body {
@@ -342,8 +342,12 @@ section.cbu p {
 
 section.confirm-assistance {
     text-align: center;
-    padding: 100px 0 80px;
+    padding: 50px 0 100px;
     background-color: white;
+}
+
+section.confirm-assistance img.icon {
+    width: 150px;
 }
 
 section.confirm-assistance h4 {
@@ -403,7 +407,7 @@ section.instagram {
 }
 
 section.instagram .contenido {
-    padding: 50px 10px;
+    padding: 50px 10px 100px;
 }
 
 section.instagram span.hashtag {
@@ -431,7 +435,7 @@ section.instagram p {
 
 section.songs {
     text-align: center;
-    padding: 100px 0 100px;
+    padding: 50px 0 50px;
     background-color: white;
 }
 
@@ -441,6 +445,10 @@ section.songs h4 {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 25px;
+}
+
+section.songs img.icon {
+    width: 150px;
 }
 
 section.songs p {
