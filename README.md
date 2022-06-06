@@ -43,9 +43,13 @@ One place where you can find free images:
 [unsplash](https://unsplash.com/)
 
 
-One place where you can create the landing PNG for the **photo_title.png**:
+An online tool where you can create the landing PNG for the **photo_title.png**:
 
 [gravit](https://designer.gravit.io/)
 
 Some recommended typografy:
 > Acme, Parisienne
+
+An online tool where you can resize and crop gallery images:
+
+[iloveimg](https://www.iloveimg.com/)
