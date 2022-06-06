@@ -5,16 +5,16 @@
 
 // Instagram parallax
 $('.parallax-instagram').parallax({
-    imageSrc: 'assets/img/instagram.jpg'
+    imageSrc: 'assets/img/photo_background.jpg'
 
 });
 // Cover parallax
 $('.parallax-cover').parallax({
-    imageSrc: 'assets/img/portada.jpg'
+    imageSrc: 'assets/img/photo_background.jpg'
 });
 // Spacer parallax
 $('.parallax-spacer').parallax({
-    imageSrc: 'assets/img/instagram.jpg'
+    imageSrc: 'assets/img/photo_background.jpg'
 });
 
 
@@ -38,14 +38,14 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("reloj").innerHTML = days + " días " + hours + "hs " +
+    document.getElementById("clock").innerHTML = days + " days " + hours + "hs " +
         minutes + "m " + seconds + "s ";
 
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("reloj").innerHTML = "¡LLEGO EL GRAN DÍA!";
-        $('#reloj').prev('p').html('Listo...');
+        document.getElementById("clock").innerHTML = "¡THE BIG DAY HAS ARRIVED!";
+        $('#clock').prev('p').html('Done...');
     }
 }, 1000);
 
@@ -56,7 +56,7 @@ $('#btnCopy').click(function() {
     $temp.val($("#p1").text()).select();
     document.execCommand("copy");
     $temp.remove();
-    $(this).text('Copiado!');
+    $(this).text('Done!');
 });
 
 // ----------------------
