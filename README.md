@@ -14,7 +14,7 @@ The page is made of a simple `HTML` page with `CSS` styles. We can reeplace the 
 
 I made a small video showing this steps.
 
-[YouTube Video](http://handlebarsjs.com/)
+[YouTube Video](https://youtu.be/ibajcDcCBvE)
 
 It is prepeared to easily modify some or all of the below items.
 
@@ -25,7 +25,7 @@ All the icons size should be 512x512 px and be in PNG format with transparent ba
 - **10 Photos**:
 Two are used for the main page and have the following caracteristics:
 
-	> The **photo_background.jpg** should have a size of `1920x1080 px`.
+	> The **photo_background.jpg** should have a size of `1920x1080 (at least 1080 height) px`.
 
 	> The **photo_title.png** should have a size of about `360x440 px` in PNG format with transparent background. 
 
@@ -50,6 +50,6 @@ An online tool where you can create the landing PNG for the **photo_title.png**:
 Some recommended typografy:
 > Acme, Parisienne
 
-An online tool where you can resize and crop gallery images:
+An online tool where you can resize and crop galery images:
 
 [iloveimg](https://www.iloveimg.com/)
